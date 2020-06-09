@@ -9,7 +9,7 @@
 </div>
 
 ## Why Use?
-Have You Ever Tried To Copy Code Snippets Or Texts And Paste Them Ony By One On A NotePad With No Code Highlighting Enabled?
+Have You Ever Tried To Copy Code Snippets Or Texts And Paste Them One By One On A NotePad With No Code Highlighting Enabled?
 
 Agh, You Get It Right!  :sweat:
 
@@ -25,7 +25,7 @@ You Will Definitely Love It :>3
 1. Markdown Output
 2. Timestamp Enabled
 3. Code Highlighting **[ JavaScript, C, C++, Python, Java, HTML, CSS, Ruby ]**
-4. Quit After Approx. 10 Minutes Of Inactivity [ Configurable From Next Release]
+4. Quit After Approx. 10 Minutes Of Inactivity [ Configurable From Next Release ]
 5. Skip Duplicate Copies
 6. Copy From Anywhere 
 
@@ -39,9 +39,9 @@ Install With `npm install -g kopykat` Command And Run With `kopykat` :sunglasses
 </div>
 
 ## TODO
-- [ ] More Programming Language Support
-- [ ] Remove few False language detection 
-- [ ] Command line Args support
+- [ ] More Programming Languages Support
+- [ ] Remove Few False Language Detection 
+- [ ] Command Line Args Support
 
 ## Bugs
 [submit bugs here](https://github.com/deep5050/kopykat/issues)
