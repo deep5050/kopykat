@@ -1,7 +1,8 @@
-# KOPYKAT 9/6/2020 
+# KOPYKAT 9/6/2020
+
 ## This Is An Auto-generated File
 
->**11:09:54 AM**
+> **11:09:54 AM**
 
 ```JavaScript
 #!/usr/bin/env node
@@ -13,7 +14,7 @@ const fs = require("fs");
 const config = new Conf();
 ```
 
->**11:10:06 AM**
+> **11:10:06 AM**
 
 ```Java
 if (config.has("style")) {
@@ -24,7 +25,7 @@ if (config.has("style")) {
   }
 ```
 
->**11:10:12 AM**
+> **11:10:12 AM**
 
 ```JavaScript
 if (type === "HTML") {
@@ -35,7 +36,7 @@ if (type === "HTML") {
 };
 ```
 
->**11:10:16 AM**
+> **11:10:16 AM**
 
 ```JavaScript
 text += make_a_row(followers);
@@ -48,7 +49,7 @@ text += make_a_row(followers);
   );
 ```
 
->**11:10:26 AM**
+> **11:10:26 AM**
 
 ```JavaScript
 // console.log(forks);
@@ -64,7 +65,7 @@ text += make_a_row(followers);
   text += make_a_row(stars);
 ```
 
->**11:55:43 AM**
+> **11:55:43 AM**
 
 ```HTML
 <a href="https://imgur.com/ad8GXmt"><img src="https://i.imgur.com/ad8GXmt.jpg" title="source: imgur.com" /></a>

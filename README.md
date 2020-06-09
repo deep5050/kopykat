@@ -9,28 +9,37 @@
 </div>
 
 ## Why Use?
-Have You Ever Tried To Copy Code Snippets Or Texts And Paste Them Ony By One On A NotePad With No Code Highlighting Enabled?
 
-Agh, You Get It Right!  :sweat:
+Have You Ever Tried To Copy Code Snippets Or Texts And Paste Them Ony By One On
+A NotePad With No Code Highlighting Enabled?
 
-KOPYKAT Does This Job Simpler For You. You Just Copy Whatever You Want Without Worrying About Pasting Them. It Automatically Recognizes The Language And Do The Highlighting With Timestamp So That Whenever You Are Done With The Copy You Are Good To Go With The Generated ( Markdown) File  :boom:
+Agh, You Get It Right! :sweat:
+
+KOPYKAT Does This Job Simpler For You. You Just Copy Whatever You Want Without
+Worrying About Pasting Them. It Automatically Recognizes The Language And Do The
+Highlighting With Timestamp So That Whenever You Are Done With The Copy You Are
+Good To Go With The Generated ( Markdown) File :boom:
 
 Whether You Use It Like A
+
 1. General Clipboard Saver
 2. Code Snippet Manager
 
 You Will Definitely Love It :>3
 
 ## Features
+
 1. Markdown Output
 2. Timestamp Enabled
 3. Code Highlighting **[ JavaScript, C, C++, Python, Java, HTML, CSS, Ruby ]**
 4. Quit After Approx. 10 Minutes Of Inactivity [ Configurable From Next Release]
 5. Skip Duplicate Copies
-6. Copy From Anywhere 
+6. Copy From Anywhere
 
 ## Install
-Install With `npm install -g kopykat` Command And Run With `kopykat` :sunglasses:
+
+Install With `npm install -g kopykat` Command And Run With `kopykat`
+:sunglasses:
 
 ## Demo Output
 
@@ -39,17 +48,21 @@ Install With `npm install -g kopykat` Command And Run With `kopykat` :sunglasses
 </div>
 
 ## TODO
+
 - [ ] More Programming Language Support
-- [ ] Remove few False language detection 
+- [ ] Remove few False language detection
 - [ ] Command line Args support
 
 ## Bugs
+
 [submit bugs here](https://github.com/deep5050/kopykat/issues)
 
 ## License
-> MIT (C) 2020 Dipankar Pal
 
+> MIT (C) 2020 Dipankar Pal
 
 ## Related Works
 
-[qikQR](https://github.com/deep5050/qikQR) . [autobadge](https://github.com/deep5050/autobadge) . [qikstart](https://github.com/deep5050/qikstart)
+[qikQR](https://github.com/deep5050/qikQR) .
+[autobadge](https://github.com/deep5050/autobadge) .
+[qikstart](https://github.com/deep5050/qikstart)
