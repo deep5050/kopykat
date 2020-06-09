@@ -2,7 +2,7 @@
 <p align="center"><a href="https://github.com/deep5050/kopykat"><img src="https://i.imgur.com/nqUWz5Y.jpg" title="KOPYKAT" height=400px width=400px align="center" /></a></p>
 
 <p align="center"><h4 align="center"> FAST . HACKABLE . USEFUL </h4></p>
-<p align="center"> A CLI Tool That Continuously Looks For New Entries In System Clipboard And Creates A Note Book Automatically</p>
+<p align="center"> A CLI Tool That Continuously Looks For New Code Snippets Or Texts In System Clipboard And Creates A Note Book Automatically</p>
 <p align="center"><a href="https://github.com/deep5050/kopykat/actions?query=workflow%3Anpm-publish"><img src="https://img.shields.io/github/workflow/status/deep5050/kopykat/npm-publish?label=npm-publish&logo=github&style=for-the-badge"></a></p>
 
 <p align="center"><a href="https://www.npmjs.com/package/kopykat"><img alt="npm" src="https://img.shields.io/npm/dt/kopykat?color=red&label=INSTALL&logo=npm&style=for-the-badge"></a></p>

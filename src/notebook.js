@@ -24,7 +24,6 @@ module.exports.initiate = () => {
         var header = `# KOPYKAT ${date} \n## This Is An Auto-generated File`;
 
         fs.writeFileSync(path.join('.', 'kopykat.md'), header);
-        console.log(`wrote at ${path.join('.','kopykat.md')}`);
     }
 
 }
@@ -66,7 +65,6 @@ module.exports.write = (data) => {
         data = data.trim();
         text_to_write = `\n\n>**${time}** \n\n${data}\n`;
 
-        console.log(text_to_write);
     } else {
         // Possibly a programming snippet
         if (lang !== 'Python') {
@@ -74,7 +72,7 @@ module.exports.write = (data) => {
         }
         text_to_write = `\n\n>**${time}**\n\n\`\`\`${lang}\n${data}\n\`\`\``;
 
-        console.log(text_to_write);
+
     }
 
     fs.appendFileSync(path.join('.', 'kopykat.md'), text_to_write);
