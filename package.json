@@ -1,0 +1,45 @@
+{
+  "name": "kopykat",
+  "version": "1.0.0",
+  "description": "Looks for new text/code snippets in system clipboard and creates notebook automatically :zap:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep5050/kopykat.git"
+  },
+  "bin": {
+    "kopykat": "./index.js"
+  },
+  "keywords": [
+    "copy",
+    "paste",
+    "clipboard",
+    "copy-paste",
+    "copycat",
+    "automation",
+    "markdown",
+    "notebook",
+    "cli",
+    "clipboard-manager",
+    "code",
+    "code-snippet",
+    "notebook",
+    "language-detection",
+    "code-highlight",
+    "code-highlighting"
+  ],
+  "author": "Dipankar Pal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deep5050/kopykat/issues"
+  },
+  "homepage": "https://github.com/deep5050/kopykat#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "lang-detector": "^1.0.6"
+  },
+  "files": ["index.js","src/notebook.js"]
+}
