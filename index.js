@@ -1,15 +1,14 @@
 #!/usr/bin/env node
-'use strict'
+"use strict";
 
-const clipboard = require('clipboardy');
-const notebook = require('./src/notebook');
+const clipboard = require("clipboardy");
+const notebook = require("./src/notebook");
 
 var last_clip = "";
 try {
   last_clip = clipboard.readSync();
-
 } catch (error) {
-  return new Error('could not read the clipboard');
+  return new Error("could not read the clipboard");
 }
 
 console.log("Service Started ... (Hit CTRL^C Twice To Force Quit)");
@@ -23,9 +22,8 @@ while (i < 1000) {
     var text = "";
     try {
       text = clipboard.readSync();
-
     } catch (error) {
-      return new Error('could not read the clipboard');
+      return new Error("could not read the clipboard");
     }
 
     if (text !== last_clip) {
