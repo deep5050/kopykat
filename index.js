@@ -21,7 +21,7 @@ var i = 1;
 var inactive = 0;
 
 
-while (i < 1000) {
+while (i < 1000000) {
     setTimeout(() => {
         
         var text = "";
@@ -38,7 +38,7 @@ while (i < 1000) {
         } else {
             inactive++;
             //console.log(`inactive ${inactive}`);
-            if (inactive >= 3000) {
+            if (inactive >= 300000) {
                 console.log(`Quitting On Inactivity`);
                 process.exit(0);
             }
