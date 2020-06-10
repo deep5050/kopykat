@@ -25,9 +25,8 @@ You Will Definitely Love It :>3
 1. Markdown Output
 2. Timestamp Enabled
 3. Code Highlighting **[ JavaScript, C, C++, Python, Java, HTML, CSS, Ruby ]**
-4. Quit After Approx. 10 Minutes Of Inactivity [ Configurable From Next Release ]
-5. Skip Duplicate Copies
-6. Copy From Anywhere 
+4. Skip Duplicate Copies
+5. Copy From Anywhere 
 
 ## Install
 Install With `npm install -g kopykat` Command And Run With `kopykat` :sunglasses:
