@@ -1,50 +1,29 @@
 #!/usr/bin/env node
 'use strict'
 
-const clipboard = require('clipboardy');
+const ClipboardListener = require('clipboard-listener');
 const notebook = require('./src/notebook');
+const copy = require('copy-paste');
 
-
-var last_clip = "";
+var last_copy = "";
 try {
-    last_clip = clipboard.readSync();
-
+    last_copy = copy.paste();
 } catch (error) {
     return new Error('could not read the clipboard');
 }
 
-
-console.log("Service Started ... (Hit CTRL^C Twice To Force Quit)");
 notebook.initiate();
+console.log(`last copy : ${last_copy}`);
 
-var i = 1;
-var inactive = 0;
+const listener = new ClipboardListener({
+    timeInterval: 100, // Default to 250
+    immediate: true, // Default to false
+});
 
-
-while (i < 1000000) {
-    setTimeout(() => {
-        
-        var text = "";
-        try {
-            text = clipboard.readSync();
-
-        } catch (error) {
-            return new Error('could not read the clipboard');
-        }
-
-        if (text !== last_clip) {
-            notebook.write(text);
-            inactive = 0;
-        } else {
-            inactive++;
-            //console.log(`inactive ${inactive}`);
-            if (inactive >= 300000) {
-                console.log(`Quitting On Inactivity`);
-                process.exit(0);
-            }
-        }
-        last_clip = text;
-    }, 1000);
-    //console.log(`i ${i}`);
-    i++;
-}
+listener.on('change', value => {
+    if (value !== last_copy) {
+        last_copy = value;
+        notebook.write(value);
+        console.log(value);
+    }
+});
