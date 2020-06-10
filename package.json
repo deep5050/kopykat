@@ -1,6 +1,6 @@
 {
   "name": "kopykat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Looks for new text/code snippets in system clipboard and creates notebook automatically :zap:",
   "main": "index.js",
   "scripts": {
